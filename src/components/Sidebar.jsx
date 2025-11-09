@@ -24,10 +24,10 @@ export default function Sidebar(){
 		<aside className={`${collapsed ? 'w-20' : 'w-64'} shrink-0 p-4 border-r border-neutral-200 hidden md:block backdrop-blur-sm bg-white/70 relative transition-all`}>
 			<div className="mb-4 flex items-center justify-between">
 				{collapsed ? (
-					<div className="w-8 h-8 rounded-xl bg-black text-white flex items-center justify-center text-xs font-bold">H</div>
+					<div className="w-8 h-8 rounded-xl bg-black text-white flex items-center justify-center text-xs font-bold">B</div>
 				) : (
 					<div>
-						<div className="text-xl font-bold gradient-text drop-shadow-sm">HUB-UL Viitorului</div>
+						<div className="text-xl font-bold gradient-text drop-shadow-sm">BLOOM by Qbit</div>
 						<div className="text-xs text-neutral-600">Conectat ca <span className="font-semibold">{user?.name}</span> · {user?.role}</div>
 					</div>
 				)}
