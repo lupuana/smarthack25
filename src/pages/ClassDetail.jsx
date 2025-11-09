@@ -631,9 +631,6 @@ export default function ClassDetail(){
                     const dueAt = hwDue ? new Date(hwDue).setHours(23,59,59,999) : null
                     await assignHomework({ classId: cls.id, quizIds: selectedQuizzes, title: hwTitle, dueAt, enunt: hwEnunt })
                     setShowAssign(false)
-                    setSelectedQuizzes([])
-                    setHwDue('')
-                    setHwEnunt('')
                   }}
                 >Atribuie tema</button>
               </div>
